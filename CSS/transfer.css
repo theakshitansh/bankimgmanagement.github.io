@@ -1,0 +1,28 @@
+
+        
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background:linear-gradient(lightgreen,lightblue);
+        }
+        h2{
+            color: #e84393;
+        }
+         button{
+            background: linear-gradient(Lightpink, orange);
+            height: 50px;
+            width: 25%;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            justify-content: center;
+        }
+        button:hover{
+            box-shadow: 5px 5px 10px #999;
+            transition: 0.3s;
+        }

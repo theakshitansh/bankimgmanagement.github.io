@@ -1,0 +1,52 @@
+
+	*{
+			margin:0;
+			padding: 0;
+		    box-sizing: border-box;
+		    font-family:Georgia, 'Times New Roman', Times, serif;
+		}
+		#head{
+			font-size: 25px;
+			color:coral;
+			animation: head 7s linear infinite;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+		@keyframes head{
+			0%{width: 0ch;}
+			100%{width: 28ch;}
+		}
+		#menu{
+			text-decoration: none;
+		}
+
+		ul li a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: white;
+			position: relative;
+			padding: 10px;
+		}
+
+		ul li a:before{
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 70%;
+			width: 0px;
+			height: .1rem;
+			background-color: aqua;
+			transition: all 0.5s linear;
+		}
+
+		ul li a:hover:before{
+			width:100%;
+			background-color:coral;
+		}
+
+		ul li a:hover{
+			cursor: pointer;
+			color: tomato;
+			transition: 0.7s linear;
+		}
+
