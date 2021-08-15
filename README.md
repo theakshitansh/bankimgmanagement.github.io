@@ -1,4 +1,4 @@
-# bankimgmanagement-management-system
+# Banking-management-system
 The Sparks Foundation internship project "Banking Management System" A Web Application used to transfer money between multiple users.
 This project contains 10 dummy users.
 
