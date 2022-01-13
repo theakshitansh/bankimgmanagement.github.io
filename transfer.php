@@ -83,7 +83,7 @@ if(isset($_POST['submit']))
     <?php include 'links.php'?>
     <?php include 'navbar.php'?>
     
-    <link rel="stylesheet" href="CSS/transfers.css">
+    <link rel="stylesheet" href="CSS/transfer.css">
 </head>
 
 <body>
@@ -100,7 +100,7 @@ if(isset($_POST['submit']))
                 }
                 $rows=mysqli_fetch_assoc($result);
             ?>
-        <form method="post" name="tcredit" class="tabletext" ><br>
+            <form method="post" name="tcredit" class="tabletext" ><br>
         <div>
             <table class="table table-striped table-condensed table-bordered">
                 <tr>
